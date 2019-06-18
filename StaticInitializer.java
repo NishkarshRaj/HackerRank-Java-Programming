@@ -15,7 +15,7 @@ static
     {
         B = reader.nextInt();
         H = reader.nextInt();
-        if((B<0)||(H<0))
+        if((B<=0)||(H<=0))
         {
             throw new Exception("Breadth and height must be positive");
         }

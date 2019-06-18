@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.lang.Math;
+import java.lang.Math; //to use Math.pow but that returns double only not integer!!
 class Forloop2
 {
 public static void main(String args[])
